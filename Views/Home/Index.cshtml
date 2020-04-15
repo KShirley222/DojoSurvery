@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <Form action="Result" method ="post">
+        <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" type="text" name = "name"/>
+        </div>
+        <div class="form-group">
+        <label>Language</label>
+            <select  class="form-control" name="language">
+                <option value="csharp">C#</option>
+                <option value="python">Python</option>
+                <option value="javascript">JS</option>
+                <option value="html">HTML5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Location</label>
+            <select class="form-control" name="location">
+                <option value="LA">LA</option>
+                <option value="DC">DC</option>
+                <option value="chigcago">Chicago</option>
+                <option value="Philly">Philly</option>
+            </select>
+        </div>
+         <div class = "form-group">
+            <label>Comment (optional)</label>
+            <textarea type="text" name="comment" rows="4" class="form-control"></textarea>
+        </div>
+        <button>Submit</button>
+    </Form>
+</div>

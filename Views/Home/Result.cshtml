@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <h1>Submitted info:</h1>
+    </div>
+    <div class="row">
+        <p class="col-md-6">Name:</p>
+        <p class="col-md-6">@ViewBag.SurveyInfo[0]</p>
+    </div>
+    <div class="row">
+        <p class="col-md-6">Location:</p>
+        <p class="col-md-6">@ViewBag.SurveyInfo[1]</p>
+    </div>
+    <div class="row">
+        <p class="col-md-6">Language:</p>
+        <p class="col-md-6">@ViewBag.SurveyInfo[2]</p>
+    </div>
+        <div class="row">
+        <p class="col-md-6">Comments:</p>
+        <p class="col-md-6">@ViewBag.SurveyInfo[3]</p>
+    </div>
+</div>
