@@ -1,6 +1,8 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+@using DojoSurvey.Models
+@model Survey
 
 <div class="container">
     <div class="row">
@@ -8,18 +10,18 @@
     </div>
     <div class="row">
         <p class="col-md-6">Name:</p>
-        <p class="col-md-6">@ViewBag.SurveyInfo[0]</p>
+        <p class="col-md-6">@Model.Name</p>
     </div>
     <div class="row">
         <p class="col-md-6">Location:</p>
-        <p class="col-md-6">@ViewBag.SurveyInfo[1]</p>
+        <p class="col-md-6">@Model.Location</p>
     </div>
     <div class="row">
         <p class="col-md-6">Language:</p>
-        <p class="col-md-6">@ViewBag.SurveyInfo[2]</p>
+        <p class="col-md-6">@Model.Language</p>
     </div>
         <div class="row">
         <p class="col-md-6">Comments:</p>
-        <p class="col-md-6">@ViewBag.SurveyInfo[3]</p>
+        <p class="col-md-6">@Model.Comment</p>
     </div>
 </div>

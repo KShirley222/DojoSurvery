@@ -20,17 +20,24 @@ namespace DojoSurvey.Controllers
            
             return View("Index");
         }
-
-        [HttpPost("Result")]
-        public IActionResult Result(string name, string language, string location, string comment)
+        [HttpPost("survey")]
+        public IActionResult Submission(Survey survey)
         {
+            Survey incoming = new Survey(){
+                Name = survey.Name,
+                Location = survey.Location,
+                Language = survey.Language,
+                Comment = survey.Comment
+            };
+            Console.WriteLine("Completed Creating survey model");
+            return View("result", incoming);
+        }
 
-            ViewBag.SurveyInfo = SurveyInfo;
-            SurveyInfo.Add(name);
-            SurveyInfo.Add(language);
-            SurveyInfo.Add(location);
-            SurveyInfo.Add(comment);
-            return View("Result");
+        [HttpGet("result")]
+        public IActionResult Result(Survey incoming)
+        {
+            Console.WriteLine(incoming.Name);
+            return View("result", incoming);
         }
 
         public IActionResult Privacy()
