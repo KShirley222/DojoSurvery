@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\DojoSurvey.csproj",
+  "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\DojoSurvey.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,47 +2961,47 @@
   "RootNamespace": "DojoSurvey",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kyle Shirley\\desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Result.cshtml",
+      "FilePath": "c:\\Users\\Kyle Shirley\\Desktop\\codingDojo\\ASP\\DojoSurvey\\DojoSurvey\\Views\\Home\\Result.cshtml",
       "TargetPath": "Views\\Home\\Result.cshtml",
       "FileKind": "mvc"
     }
